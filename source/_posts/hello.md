@@ -9,5 +9,4 @@ tags:
 
 - java
 - mysql
-- python
 
