@@ -79,3 +79,11 @@ theme: next
 deploy:
   type:
 
+archive_generator:
+  per_page: 1000
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
