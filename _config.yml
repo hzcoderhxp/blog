@@ -79,14 +79,3 @@ theme: next
 deploy:
   type:
 
-# set page number 
-index_generator:
-  per_page: 1
-
-archive_generator:
-  per_page: 1000
-  yearly: true
-  monthly: true
-
-tag_generator:
-  per_page: 10
