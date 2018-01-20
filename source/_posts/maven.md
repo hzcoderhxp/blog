@@ -179,7 +179,7 @@ system | Y  | Y | - | maven依赖以外jar
 
 1. 加载本项目配置：classpath:spring/applicationContext-*.xml
 
-2. 批量加载jar中配置：classpath:spring/applicationContext-*.xml
+2. 批量加载jar中配置：classpath*:spring/applicationContext-*.xml
 
 > 传递依赖范围: 传递不是无休止的。当发现依赖缺失的时候。自己手动加个
 
@@ -225,8 +225,10 @@ system | Y  | Y | - | maven依赖以外jar
         <password>admin2016</password>
         </server>
     </servers>
-```    
-2. 在将要上传的项目 pom.xml中配置jar包上传路径
+```
+    
+2. 在将要上传的项目 pom.xml中配置jar包上传路径
+
 ```xml
 <!-- stone-interface -->
 <distributionManagement>
