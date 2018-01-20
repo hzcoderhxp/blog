@@ -1,13 +1,12 @@
 
 ---
-title: Hello Docker
+title: Hello Maven
 date: 2017-10-18 10:07:18
 tags:
   - tech
   - maven
 
 ---
-Maven基础
 > 背景：MAVEN作为时下最流行的项目管理工具，设计思想比它的实际使用给人更大的启发和思考。一直没有时间好好整理一个maven的文档，现在做一个整理，也分享给自己和同事，文章包括Maven的基本概念和操作
 
 
