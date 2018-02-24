@@ -32,9 +32,11 @@ public Log4jdbcProxyDataSource getLog4jdbcProxyDataSource(DataSource dataSource)
 ```
 
 - 使用log4jbdc，需要改驱动和URL前加上log4jdbc:  这种方式打印出来SQL会有表格形状；如下
+
 ```xml
 jdbc:log4jdbc:mysql:
 ```
+
 
 ```xml
 driver-class-name: net.sf.log4jdbc.DriverSpy
