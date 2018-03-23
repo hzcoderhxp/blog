@@ -1,5 +1,5 @@
 ---
-title: 测试问题
+title: google eventbus线程问题
 date: 2018-03-23 17:47:19
 tags:
   - tech
