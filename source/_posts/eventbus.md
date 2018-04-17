@@ -144,7 +144,7 @@ ThreadPoolTaskExecutor-1====START1====2018-03-23 05:19:51 051
 
 
 ### 总结
-针对这个google eventbus的这个情况，希望大家注意下，一般线上项目的话，抛出事件消费，不大会发现这个问题。碰到批量操作还是老老实实的建个线程池吧。。
+针对这个google eventbus的这个情况，eventbus 提供了一个并发发布的方式，只要在订阅的方法上加上注解@AllowConcurrentEvents 就可以解决这个问题。因为查看eventbus源码可以看到，一个subscriber有一个synchronized(this)的同步机制。希望大家注意下，一般线上项目的话，抛出事件消费，不大会发现这个问题。碰到批量操作还是老老实实的建个线程池吧。。
 
 
 
